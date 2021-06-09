@@ -1,0 +1,177 @@
+/* Navbar Styling */
+.navbar {
+    height: 110px;
+    background-color: navy;
+}
+
+.navbar a {
+    position: relative;
+    left: 50px;
+    color:silver;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.navbar img {
+    height: 70px;
+    width: auto;
+    position: absolute;
+    right: 50px;
+}
+
+/* Overview Container */
+#overview-container {
+    background-image: url("/static/images/14791130_G.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: -600px;
+    height: 400px;
+}
+
+#overview-container p {
+    width: auto;
+    height: 200px;
+    font-size: 23px;
+    color:gold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+#input-form {
+    background-color: grey;
+    height: 50px;
+    padding-top: 12px;
+    padding-left: 20px;
+}
+
+#input-form label {
+    font-weight: bold;
+}
+
+.visual-wrapper {
+    height: 500px;
+    width: auto;
+}
+
+.visual-wrapper h3 {
+    text-align: center;
+}
+
+#garrett-graph {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+.middle-axis {
+    stroke-width: 3.5px;
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: top;
+    overflow: hidden;
+    
+    
+}
+.svg-content {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#tejas-graph {
+    height: 540px;
+    width: auto;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+#footer {
+    position: relative;
+    bottom: 0px;
+    height: 75px;
+    width: auto;
+    background-color:grey;
+    margin-top: 150px;
+}
+
+#footer div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Mike's Bubble Graph Styling */
+
+#mike-graph {
+    position: relative;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#toolbar {
+    position: relative;
+    left: 5.5%;
+    padding-top: 100px;
+}
+
+svg {
+    background: rgba(221, 221, 221, 0.767);
+}
+.selected {
+    fill: none;
+}
+  
+.button {
+    min-width: 130px;
+    padding: 4px 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid #e0e0e0;
+    text-decoration: none;
+}
+.title {
+    font-family: 'Freshman', sans-serif;
+    font-size: 18px;
+    margin: 5px;
+  }
+.button.active {
+    background: #000;
+    color: #fff;
+}
+
+/* Mike's Bubble Graph Styling End */
+
+#map {
+    height: 980px;
+    width: 90%;
+    margin-top: 100px;
+    position: relative;
+    top: 10%;
+    left: 5%;
+}
+
+
+
+
