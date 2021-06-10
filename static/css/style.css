@@ -26,12 +26,13 @@
 
 /* Overview Container */
 #overview-container {
-    background-image: url("/static/images/14791130_G.webp");
+    background-image: url("../images/14791130_G.webp");
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-position-y: -600px;
-    height: 400px;
+    background-position-y: -200px;
+    height: 450px;
 }
 
 #overview-container p {
